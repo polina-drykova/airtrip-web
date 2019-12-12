@@ -15,3 +15,13 @@
  */
  @import "bootstrap/scss/bootstrap";
 
+html, body {
+  height: 100vh;
+  background: linear-gradient(rgb(216, 235, 247) 0%, rgb(217, 231, 250) 100%);
+  color: #03080e;
+}
+
+.link {
+  color: #1261dc;
+  text-decoration: none;
+}
