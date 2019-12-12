@@ -1,0 +1,41 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10%;
+  background: #f8f9fa;
+  box-shadow: 0px 6px 12px 1px rgba(0,0,0,.1);
+  -webkit-box-shadow: 0px 6px 12px 1px rgba(0,0,0,.1);
+      h1 {
+      font-size: 160%;
+    }
+}
+
+.navbar-wrap {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+    a {
+      margin: auto;
+      font-size: 98%;
+      color: #1261dc;
+      text-decoration: transparent;
+      font-weight: 500;
+      &:hover {
+        color: #1261dc;
+        text-decoration: underline;
+        -webkit-text-decoration: underline;
+      }
+    }
+}
+
+@media (min-width: 700px) {
+
+}
