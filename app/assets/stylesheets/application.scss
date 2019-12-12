@@ -13,12 +13,15 @@
  *= require_tree .
  *= require_self
  */
+ @import url('https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap');
  @import "bootstrap/scss/bootstrap";
+ @import "navbar";
 
 html, body {
   height: 100vh;
   background: linear-gradient(rgb(216, 235, 247) 0%, rgb(217, 231, 250) 100%);
   color: #03080e;
+  font-family: 'Poppins', sans-serif;
 }
 
 .link {
