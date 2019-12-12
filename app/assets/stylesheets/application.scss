@@ -17,9 +17,10 @@
  @import "bootstrap/scss/bootstrap";
  @import "navbar";
  @import "home";
+ @import "closer-look";
 
 html, body {
-  height: 100vh;
+  // height: 100vh;
   background: linear-gradient(rgb(216, 235, 247) 0%, rgb(217, 231, 250) 100%);
   color: #03080e;
   font-family: 'Poppins', sans-serif;
