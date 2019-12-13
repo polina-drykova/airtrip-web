@@ -9,6 +9,7 @@
   -webkit-box-shadow: 0px 6px 12px 1px rgba(0,0,0,.1);
       h1 {
       font-size: 160%;
+      margin: auto;
     }
 }
 
@@ -35,6 +36,14 @@
         -webkit-text-decoration: underline;
       }
     }
+}
+
+.logo-link {
+  color: #03080e;
+  &:hover {
+    color: rgba(3, 8, 13, .85);
+    text-decoration: none;
+  }
 }
 
 @media (min-width: 700px) {
