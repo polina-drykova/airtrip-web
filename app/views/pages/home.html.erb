@@ -1,47 +1,60 @@
-<div class="container">
-  <!-- hero section start -->
-    <div class="hero">
-      <div class="image">
-        <%= image_tag ('im.png') %>
-      </div>
-      <div class="info">
-        <h2>Share your trip plans</h2>
-        <p>Easily create your planned tour and share with who you like.</p>
-        <div class="buttons">
-          <%= link_to 'Download Now', '#', class: 'button' %>
-          <%= link_to 'or Take a closer look', '#demo', class: 'link' %>
+<!-- hero section start -->
+  <div class="container">
+      <div class="hero">
+        <div class="image">
+          <%= image_tag ('im.png') %>
+        </div>
+        <div class="info">
+          <h2>Share your trip plans</h2>
+          <p>Easily create your planned tour and share with who you like.</p>
+          <div class="buttons">
+            <%= link_to 'Download Now', '#', class: 'button' %>
+            <%= link_to 'or Take a closer look', '#demo', class: 'link' %>
+          </div>
         </div>
       </div>
-    </div>
-  <!-- hero section end -->
-</div>
-  <!-- demo section start -->
-    <div class="demo" id="demo">
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <p class="d-block w-100">Simple, clean, minimalist design.</p>
-            <%= image_tag ('x.png'), class: 'd-block' %>
-          </div>
-          <div class="carousel-item">
-            <p class="d-block w-100">And something else.</p>
-            <%= image_tag ('x.png'), class: 'd-block' %>
-          </div>
-          <div class="carousel-item">
-            <p class="d-block w-100">And this cool thing too.</p>
-            <%= image_tag ('x.png'), class: 'd-block' %>
-          </div>
+  </div>
+<!-- hero section end -->
+<!-- demo section start -->
+  <div class="demo" id="demo">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <p class="d-block w-100">Simple, clean, minimalist design.</p>
+          <%= image_tag ('x.png'), class: 'd-block' %>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-          <span class="sr-only">Next</span>
-        </a>
+        <div class="carousel-item">
+          <p class="d-block w-100">And something else.</p>
+          <%= image_tag ('x.png'), class: 'd-block' %>
+        </div>
+        <div class="carousel-item">
+          <p class="d-block w-100">And this cool thing too.</p>
+          <%= image_tag ('x.png'), class: 'd-block' %>
+        </div>
       </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-  <!-- demo section end -->
+  </div>
+<!-- demo section end -->
+<!-- store section start -->
+  <div class="store">
+    <p>Choose your platform and start monetizing your trips.</p>
+    <div class="store-buttons">
+      <%= link_to '#' do %>
+        <%= image_tag ('app.png') %>
+      <% end %>
+      <%= link_to '#' do %>
+        <%= image_tag ('google.png') %>
+      <% end %>
+    </div>
+  </div>
+<!-- store section end -->
 
 

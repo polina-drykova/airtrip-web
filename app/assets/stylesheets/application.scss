@@ -19,11 +19,13 @@
  @import "home";
  @import "closer-look";
  @import "footer";
+ @import "store-section";
+
 
 
 html, body {
   // height: 100vh;
-  background: linear-gradient(rgb(216, 235, 247) 0%, rgb(217, 231, 250) 100%);
+  background: linear-gradient(to right top, rgb(215, 242, 244), rgb(217, 231, 250));
   color: #03080e;
   font-family: 'Poppins', sans-serif;
 }
