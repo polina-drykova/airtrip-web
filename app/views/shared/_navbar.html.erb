@@ -1,7 +1,13 @@
 <div class="navbar">
   <div class="navbar-wrap">
     <div class="logo">
-      <h1>AirTrip</h1>
+      <% if action_name != "home" then %>
+        <%= link_to root_path, class: 'logo-link' do %>
+          <h1>AirTrip</h1>
+        <% end %>
+      <% else %>
+        <h1>AirTrip</h1>
+      <% end %>
     </div>
     <div class="links">
       <%= link_to 'App', '#' %>
