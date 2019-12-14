@@ -45,6 +45,29 @@
   justify-content: flex-top;
 }
 
+///////////////////////////////
+//Responsiveness:
+
+// @media (min-width: 760px) {
+//   .demo {
+//     margin-top: 10%;
+//     width: 70%;
+//   }
+//   .carousel-item, .active{
+//     img {
+//       width: 335px;
+//     }
+//     p {
+//       font-size: 170%;
+//        }
+//     }
+//   .fa.fa-long-arrow-left, .fa-long-arrow-right {
+//     font-size: 30px;
+//     font-weight: lighter !important;
+//     padding: 18px 18px;
+//   }
+// }
+
 @media (min-width: 1024px) {
   .demo {
     width: 45%;
