@@ -68,7 +68,21 @@
   visibility: hidden;
 }
 
-
+@media (min-width: 1024px) {
+  .navbar {
+      h1 {
+      font-size: 160%;
+      margin-top: 5%;
+      height: 100%;
+    }
+  }
+  .links {
+    visibility: visible;
+  }
+  .btn-group {
+    display: none;
+  }
+}
 
 //////////////////////////////
 
