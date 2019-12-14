@@ -1,33 +1,47 @@
 .container {
   height: 65vh;
-  width: 70%;
-  margin: 13% auto 0 auto;
+  //// width: 70%;
+  width: 98%;
+  //// margin: 13% auto 0 auto;
+  margin: 35% auto 0 auto;
   padding: 0;
+  // :
+  text-align: center;
 }
 
 .hero {
   width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  //// flex-direction: row;
+  flex-direction: column;
+  // justify-content: space-between;
+  // :
+  align-items: center;
   h2 {
-    font-size: 270%;
+    //// font-size: 270%;
+    font-size: 410%;
     font-weight: 500;
     margin-bottom: 4%;
   }
   p {
-    font-size: 130%;
+    //// font-size: 130%;
+    font-size: 260%;
     font-weight: lighter;
     line-height: 2;
     margin-bottom: 4%;
   }
   img {
-    width: 415px;
+    //// width: 415px;
+    width: 280px;
+    // :
+    margin-left: auto;
+    margin-bottom: 10%;
   }
 }
 
 .info {
-  width: 48%;
+  //// width: 48%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -36,15 +50,24 @@
 
 .buttons {
   margin-top: 6%;
+  ////:
+  display: flex;
+  flex-direction: column;
+  font-size: 240%;
 }
 
 .button {
   background: #1261dc;
   color: white;
   padding: 11px 40px;
-  font-size: 115%;
+  //// font-size: 115%;
   border-radius: 4px;
-  margin-right: 4%;
+  ////margin-right: 4%;
+  ////
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
   &:hover {
     color: white;
     text-decoration: none;
@@ -52,3 +75,61 @@
     -webkit-box-shadow: 0px 0px 12px 2px rgba(0,0,0,.1);
   }
 }
+
+@media (min-width: 700px) and (max-width: 1000px) {
+
+}
+
+@media (min-width: 1024px) {
+  .container {
+    width: 67%;
+    margin: 13% auto 0 auto;
+    text-align: start;
+  }
+  .hero {
+    flex-direction: row;
+    justify-content: space-between;
+    h2 {
+      font-size: 270%;
+      margin-bottom: 4%;
+    }
+    p {
+      font-size: 130%;
+      margin-bottom: 4%;
+    }
+    img {
+      margin-bottom: 0;
+      width: 400px;
+    }
+  }
+  .info {
+    height: 90%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .buttons {
+    margin-top: 6%;
+    flex-direction: row;
+    font-size: 100%;
+    align-items: center;
+  }
+
+  .button {
+    font-size: 115%;
+    background: #1261dc;
+    color: white;
+    padding: 11px 40px;
+    border-radius: 4px;
+    margin: 0;
+    margin-right: 4%;
+    width: auto;
+  }
+}
+
+
+
+
