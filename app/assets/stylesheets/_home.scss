@@ -1,5 +1,5 @@
 .container {
-  height: 65vh;
+  height: 50vh;
   //// width: 70%;
   width: 98%;
   //// margin: 13% auto 0 auto;
@@ -82,6 +82,7 @@
 
 @media (min-width: 1024px) {
   .container {
+    height: 65vh;
     width: 67%;
     margin: 13% auto 0 auto;
     text-align: start;

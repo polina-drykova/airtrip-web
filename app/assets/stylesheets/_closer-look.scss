@@ -1,17 +1,18 @@
 .demo {
   padding-top: 8%;
-  width: 45%;
+  width: 90%;
   margin: 0 auto 13% auto;
+  font-weight: lighter;
 }
 
 .carousel-item, .active{
   margin-left: auto;
   img {
-    width: 335px;
+    width: 450px;
   }
  p {
-     font-size: 130%;
-     font-weight: lighter;
+     font-size: 260%;
+     font-weight: 100;
      line-height: 2;
      margin-bottom: 7%;
      text-align: center;
@@ -25,10 +26,10 @@
 
 .fa.fa-long-arrow-left, .fa-long-arrow-right {
   margin-top: 0;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: lighter !important;
   background: #a8caf0;
-  padding: 18px 18px;
+  padding: 37px 37px;
   border-radius: 20%;
   &:hover {
     text-decoration: none;
@@ -43,3 +44,70 @@
   display: flex;
   justify-content: flex-top;
 }
+
+@media (min-width: 1024px) {
+  .demo {
+    width: 45%;
+    margin: 0 auto 13% auto;
+  }
+  .carousel-item, .active{
+    img {
+      width: 335px;
+    }
+   p {
+       font-size: 130%;
+     }
+  }
+  .fa.fa-long-arrow-left, .fa-long-arrow-right {
+    font-size: 30px;
+    font-weight: lighter !important;
+    padding: 18px 18px;
+  }
+}
+
+//////////////////////////////////////////////////////
+// .demo {
+//   padding-top: 8%;
+//   width: 45%;
+//   margin: 0 auto 13% auto;
+// }
+
+// .carousel-item, .active{
+//   margin-left: auto;
+//   img {
+//     width: 335px;
+//   }
+//  p {
+//      font-size: 130%;
+//      font-weight: lighter;
+//      line-height: 2;
+//      margin-bottom: 7%;
+//      text-align: center;
+//    }
+// }
+
+// .d-block {
+//   margin-left: auto;
+//   margin-right: auto;
+// }
+
+// .fa.fa-long-arrow-left, .fa-long-arrow-right {
+//   margin-top: 0;
+//   font-size: 30px;
+//   font-weight: lighter !important;
+//   background: #a8caf0;
+//   padding: 18px 18px;
+//   border-radius: 20%;
+//   &:hover {
+//     text-decoration: none;
+//     box-shadow: 0px 0px 12px 1px rgba(0,0,0,.1);
+//     -webkit-box-shadow: 0px 0px 12px 1px rgba(0,0,0,.1);
+//   }
+// }
+
+// .carousel-control-prev, .carousel-control-next {
+//   height: 45%;
+//   opacity: 1 !important;
+//   display: flex;
+//   justify-content: flex-top;
+// }
