@@ -1,14 +1,12 @@
 <div class="navbar">
   <div class="navbar-wrap">
-    <div class="logo">
       <% if action_name != "home" then %>
-        <%= link_to root_path, class: 'logo-link' do %>
-          <h1>AirTrip</h1>
+        <%= link_to root_path do %>
+          <%= image_tag('logo.png') %>
         <% end %>
       <% else %>
-        <h1>AirTrip</h1>
+        <%= image_tag('logo.png') %>
       <% end %>
-    </div>
     <!-- navbar links -->
       <div class="links">
         <%= link_to 'App', '#' %>
