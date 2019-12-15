@@ -18,6 +18,7 @@
 
 .navbar-wrap {
   width: 80%;
+  height: 4vh;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -41,16 +42,12 @@
     }
 }
 
-.logo-link {
-  color: #03080e;
-  &:hover {
-    color: rgba(3, 8, 13, .85);
-    text-decoration: none;
-  }
+.navbar-wrap img {
+  height: 4vh;
 }
 
 .fa-bars {
-  font-size: 70px;
+  font-size: 4vh;
   color: #1261dc;
   cursor: pointer;
 }
