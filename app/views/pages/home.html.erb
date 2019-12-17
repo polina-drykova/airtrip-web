@@ -1,16 +1,25 @@
 <!-- hero section start -->
-  <div class="container">
+  <div class="container-hero">
       <div class="hero">
         <div class="image">
           <%= image_tag ('im.png') %>
         </div>
         <div class="info">
-          <h2>Share your trip plans</h2>
-          <p>Easily create your planned tour and share with who you like.</p>
-          <div class="buttons">
-            <%= link_to 'Download Now', '#', class: 'button' %>
-            <%= link_to 'or Take a closer look', '#demo', class: 'link' %>
-          </div>
+          <h2>Find your Tribe</h2>
+          <!-- <p>Airtrip helps you to connect IRL to your friends, followers and customers. <br>Soon available on iOS and Android.</p> -->
+          <p>Airtrip helps you to connect IRL to your friends, followers and customers.</p>
+
+          <p id="paragr">Soon available on iOS and Android</p>
+            <div class="buttons">
+              <%= link_to '#' do %>
+                <%= image_tag ('app.png'), class: 'store' %>
+              <% end %>
+              <%= link_to '#' do %>
+                <%= image_tag ('google.png'), class: 'store' %>
+              <% end %>
+            </div>
+            <%#= link_to 'Download Now', '#', class: 'button' %>
+            <%#= link_to 'or Take a closer look', '#demo', class: 'link' %>
         </div>
       </div>
   </div>
@@ -44,17 +53,17 @@
   </div>
 <!-- demo section end -->
 <!-- store section start -->
-  <div class="store">
+  <!-- <div class="store">
     <p>Choose your platform and start monetizing your trips.</p>
     <div class="store-buttons">
-      <%= link_to '#' do %>
-        <%= image_tag ('app.png') %>
-      <% end %>
-      <%= link_to '#' do %>
-        <%= image_tag ('google.png') %>
-      <% end %>
+      <%#= link_to '#' do %>
+        <%#= image_tag ('app.png') %>
+      <%# end %>
+      <%#= link_to '#' do %>
+        <%#= image_tag ('google.png') %>
+      <%# end %>
     </div>
-  </div>
+  </div> -->
 <!-- store section end -->
 
 <!-- JS for smooth scrolling start -->
