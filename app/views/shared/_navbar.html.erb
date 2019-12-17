@@ -14,15 +14,35 @@
         <%= link_to 'Contact', :contact %>
       </div>
     <!-- navbar links end -->
-    <!-- dropdown links for small devices only -->
-      <div class="btn-group">
-        <i class="fa fa-bars" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
-        <div class="dropdown-menu dropdown-menu-right">
-          <%= link_to 'App', '#', class: 'dropdown-item' %>
-          <%= link_to 'About', :about, class: 'dropdown-item' %>
-          <%= link_to 'Contact', :contact, class: 'dropdown-item' %>
+    <!-- nav-toggle for sm dev start -->
+      <input type="checkbox" id="navicon">
+      <label for="navicon" class="nav-toggle">
+        <span class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </label>
+      <aside class="sidebar" role="complementary">
+        <div class="sidebar-item">
+          <%= link_to 'App', '#', class: 'sidebar-item' %>
+          <hr>
+          <%= link_to 'About', :about, class: 'sidebar-item' %>
+          <hr>
+          <%= link_to 'Contact', :contact, class: 'sidebar-item' %>
         </div>
-      </div>
-    <!-- dropdown links for small devices only -->
+      </aside>
+    <!-- nav-toggle for sm dev end -->
   </div>
 </div>
+
+<!-- old nav-toggle -->
+  <!-- <div class="btn-group">
+    <i class="fa fa-bars" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+    <div class="dropdown-menu dropdown-menu-right">
+      <%#= link_to 'App', '#', class: 'dropdown-item' %>
+      <%#= link_to 'About', :about, class: 'dropdown-item' %>
+      <%#= link_to 'Contact', :contact, class: 'dropdown-item' %>
+    </div>
+  </div> -->
+<!-- old nav-toggle -->
