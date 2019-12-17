@@ -13,10 +13,10 @@
   width: 85%;
   margin: auto;
   text-align: justify;
-  font-size: 1.9vh;
+  font-size: 2.1vh;
 }
 .text-wrap h4 {
-  font-size: 2.4vh;
+  font-size: 2.5vh;
 }
 .light {
   font-weight: lighter;
@@ -29,5 +29,6 @@
 @media (min-width: 1024px) {
   .text-wrap {
     width: 55%;
+    font-size: 2vh;
   }
 }
