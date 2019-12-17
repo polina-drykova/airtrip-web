@@ -1,3 +1,33 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.container-text {
+  height: auto;
+  background: #f8f9fa;
+  margin-bottom: 0;
+}
+
+.text-wrap {
+  padding-top: 15vh;
+  padding-bottom: 10vh;
+  width: 85%;
+  margin: auto;
+  text-align: justify;
+  font-size: 1.9vh;
+}
+.text-wrap h4 {
+    font-size: 2.4vh;
+}
+.light {
+  font-weight: lighter;
+}
+.text-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 1024px) {
+  .text-wrap {
+    width: 55%;
+  }
+}
