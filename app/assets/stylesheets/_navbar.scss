@@ -162,25 +162,29 @@
 
 @media (min-width: 1024px) {
   .navbar {
-      h1 {
-      font-size: 160%;
-      margin-top: 5%;
-      height: 100%;
-    }
+    h1 {
+    font-size: 160%;
+    margin-top: 5%;
+    height: 100%;
+  }
   }
   .links {
     visibility: visible;
     width: auto;
     padding: auto;
     a {
-      margin-left: 2.5vh;
+      margin-left: 2.7vh;
     }
   }
   .navbar-wrap {
-    width: 70%;
+    width: 65%;
+    height: auto;
   }
   .nav-toggle {
     display: none;
+  }
+  .navbar-wrap img {
+    height: 5.3vh;
   }
 }
 

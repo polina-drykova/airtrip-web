@@ -44,10 +44,10 @@
 }
 
 .buttons {
-  // margin-top: 6%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
   font-size: 260%;
   height: 15vh;
 }
@@ -70,15 +70,20 @@
 }
 
 .buttons a {
-  margin: auto 1vh;
+  margin: 0;
   display: flex;
   align-items: center;
 }
 .buttons img{
-  height: 5.7vh;
-  // width: auto;
-  margin-left: auto;
-  padding-right: 0 !important;
+  height: 5.9vh;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  opacity: .6;
+}
+
+.buttons2 {
+  display: none;
 }
 
 ////////////////////////////
@@ -123,7 +128,7 @@
 @media (min-width: 1024px) {
   .container-hero {
     height: 100vh;
-    width: 70%;
+    width: 65%;
     margin: 0 auto 0 auto;
     text-align: start;
     // height: 62vh;
@@ -141,6 +146,7 @@
     p {
       font-size: 2.3vh;
       margin-bottom: 4vh;
+      letter-spacing: 0.1vh;
     }
     img {
       margin-bottom: 0;
@@ -149,22 +155,26 @@
   }
   .info {
     height: 90%;
-    width: 52%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    // padding: auto;
   }
 
   .buttons {
+    display: none;
+  }
+
+  .buttons2 {
+    display: flex;
     width: 100%;
-    margin: 0;
-    padding: 0;
-    height: auto;
     flex-direction: row;
-    font-size: 100%;
     align-items: center;
     justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    height: auto;
   }
 
   .button {
@@ -179,13 +189,13 @@
   }
 }
 
-.buttons a {
+.buttons2 a {
   margin: 0;
   display: flex;
   align-items: center;
 }
-.buttons img{
-  height: 5.5vh;
+.buttons2 img{
+  height: 5.9vh;
   width: auto;
   margin: 0;
   padding: 0;
