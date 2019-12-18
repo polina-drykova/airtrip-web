@@ -122,16 +122,18 @@
 
 @media (min-width: 1024px) {
   .container-hero {
-    height: 62vh;
-    width: 67%;
-    margin: 13% auto 5vh auto;
+    height: 100vh;
+    width: 70%;
+    margin: 0 auto 0 auto;
     text-align: start;
+    // height: 62vh;
+    // margin: 13% auto 5vh auto;
   }
   .hero {
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 0;
+    margin: auto;
     h2 {
       font-size: 270%;
       margin-bottom: 1.5vh;
@@ -147,7 +149,7 @@
   }
   .info {
     height: 90%;
-    width: 50%;
+    width: 52%;
     display: flex;
     flex-direction: column;
     justify-content: center;
