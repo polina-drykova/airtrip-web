@@ -170,6 +170,14 @@
   }
   .links {
     visibility: visible;
+    width: auto;
+    padding: auto;
+    a {
+      margin-left: 2.5vh;
+    }
+  }
+  .navbar-wrap {
+    width: 70%;
   }
   .nav-toggle {
     display: none;
