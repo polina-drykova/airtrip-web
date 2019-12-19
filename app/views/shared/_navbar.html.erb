@@ -9,9 +9,10 @@
       <% end %>
     <!-- navbar links -->
       <div class="links">
-        <%= link_to 'Cookie', :cookie %>
+        <%= link_to 'Cookies', :cookie %>
         <%= link_to 'Privacy', :privacy %>
         <%= link_to 'Terms', :terms %>
+        <%= link_to 'Contact', 'mailto:andrea@airtrip.io', target: '_blank' %>
         <%#= link_to 'App', '#' %>
         <%#= link_to 'About', :about %>
         <%#= link_to 'Contact', :contact %>
@@ -28,7 +29,7 @@
       </label>
       <aside class="sidebar" role="complementary">
         <div class="sidebar-item">
-          <%= link_to 'Cookie', :cookie %>
+          <%= link_to 'Cookies', :cookie %>
           <%#= link_to 'App', '#', class: 'sidebar-item' %>
           <hr>
           <%= link_to 'Privacy', :privacy %>
@@ -36,6 +37,7 @@
           <hr>
           <%= link_to 'Terms', :terms %>
           <%#= link_to 'Contact', :contact, class: 'sidebar-item' %>
+          <%= link_to 'Contact', 'mailto:andrea@airtrip.io', target: '_blank' %>
         </div>
       </aside>
     <!-- nav-toggle for sm dev end -->
